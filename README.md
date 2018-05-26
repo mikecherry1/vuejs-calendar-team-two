@@ -52,3 +52,5 @@ Customized Calendar originally based on Source Code from Project 3: Vue.js Calen
     ```
 
 Your site will be available at *localhost:[PORT]* where `PORT` is whatever value is set in your `.env` file.
+
+### Be sure to set '.env' file to 'development' for editing & 'production' for viewing outside of dev mode!
