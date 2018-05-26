@@ -3,7 +3,7 @@
 
 ### Calendar structure and basic functionality based on Ultimate Vue.js Developers Course's Project 3: Vue.js Calendar
 
-Original Calendar Source code for the [Ultimate Vue.js Developers Course](http://bit.ly/2mPK8ny).
+Customized Calendar originally based on Source Code from Project 3: Vue.js Calendar (https://github.com/vuejsdevelopers/vuejs-calendar)
 
 
 
