@@ -76,6 +76,10 @@ body {
 
       div:last-child {
         font-weight: bold;
+        .date {
+          width: 130px;
+          text-align: center;
+        }
         button {
           color: $dusty-gray;
           font-size: 1rem;
@@ -106,6 +110,7 @@ body {
 
     #calendar {
       background-color: white;
+      padding: 15px;
       .calendar-week {
         @include calendar-row;
         .day {
@@ -250,5 +255,4 @@ body {
     }
 
   }
-
 }
