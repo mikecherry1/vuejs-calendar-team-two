@@ -53,6 +53,7 @@ body {
     flex-basis: 1000px;
 
     #header {
+      padding-bottom: 10px; //New, added so the days don't jump around on change of month or year
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -104,13 +105,13 @@ body {
     #day-bar {
       @include calendar-row;
       div {
+        &:hover{background: white}; //added to change the color of the days to white on mouse over
         @include calendar-cell;
       }
     }
 
     #calendar {
       background-color: white;
-      padding: 15px;
       .calendar-week {
         @include calendar-row;
         .day {
