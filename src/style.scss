@@ -158,11 +158,12 @@ body {
           }
         }
 
-
-        .day {
-
-
+        .days-from-other-months {
+          font-style: italic;
+          font-size: small;
+          color: gray;
         }
+
         &:last-child {
           .day {
             border-bottom: $calendar-border;
